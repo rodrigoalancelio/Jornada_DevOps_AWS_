@@ -1,0 +1,7 @@
+CREATE TABLE mensagens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(50) NOT NULL,
+    email VARCHAR(50) NOT NULL,
+    comentario VARCHAR(100) NOT NULL
+);
+
